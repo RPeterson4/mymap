@@ -44,7 +44,7 @@ public class TestMyMap {
 		map.put(5, "baz");
 		assertNull(map.get(3242));
 		assertEquals("baz", map.get(5));
-		assertEquals("bar", map.get(35));;
+		assertEquals("bar", map.get(35));
 		map.put(5, "bazzz");
 		assertEquals("bazzz", map.get(5));
 	}
